@@ -11,7 +11,7 @@
 ![Normal](https://raw.github.com/kimsk/meteor-react-material-ui/master/docs/normal.png)
 
 #### Material UI
-We need to download [material ui](http://material-ui.com/#/home) via NPM.
+Material UI and React-related modules are available on NPM, and can be bundled for the client with Browserify tool, so we need to download [material ui](http://material-ui.com/#/home) via NPM.
 
 1. `meteor add meteorhacks:npm cosmos:browserify`
 2. Include `material-ui` and `react-tap-event-plugin` in [packages.json](https://github.com/kimsk/meteor-react-material-ui/blob/master/app/packages.json)
@@ -20,3 +20,7 @@ We need to download [material ui](http://material-ui.com/#/home) via NPM.
 
 ![Material UI](https://raw.github.com/kimsk/meteor-react-material-ui/master/docs/material-ui.png)
 
+#### References:
+- [Using client-side modules from NPM with Browserify](http://react-in-meteor.readthedocs.org/en/latest/client-npm/)
+- [Meteor, React and Material UI the easy way](https://grigio.org/meteor-react-and-material-ui-the-easy-way/)
+- [Material UI Leaderboard](https://github.com/meteor/react-packages/tree/master/examples/material-ui-leaderboard)
