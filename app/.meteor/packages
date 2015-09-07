@@ -22,3 +22,8 @@ spacebars
 check
 ecmascript
 react
+meteorhacks:npm
+cosmos:browserify
+
+
+npm-container
