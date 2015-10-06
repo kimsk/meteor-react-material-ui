@@ -1,23 +1,21 @@
 if (Meteor.isClient) {
+  var ThemeManager = new mui.Styles.ThemeManager();
 
   const {
       RaisedButton,
       Avatar
       } = mui;
 
-  let Colors = mui.Styles.Colors;
-
-  const ThemeManager = new mui.Styles.ThemeManager();
-
-  var Content = React.createClass({
+  let Content = React.createClass({
     // Material UI
-    childContextTypes: {
-      muiTheme: React.PropTypes.object
-    },
-    getChildContext: function() {
+    getChildContext() {
       return {
         muiTheme: ThemeManager.getCurrentTheme()
       };
+    },
+
+    childContextTypes: {
+      muiTheme: React.PropTypes.object
     },
 
     getInitialState: function() {
@@ -44,7 +42,9 @@ if (Meteor.isClient) {
     }
 
   });
+
   Meteor.startup(function(){
+    injectTapEventPlugin();
     React.render(<Content/>, document.body);
   });
 }
