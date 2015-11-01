@@ -1,3 +1,6 @@
+# NOTES:
+Use [meteor-webpack-react](https://github.com/kimsk/meteor-webpack-react/tree/karlkim) instead.
+
 # meteor-react-material-ui
 
 1). Create Meteor app: `meteor create {app}`
