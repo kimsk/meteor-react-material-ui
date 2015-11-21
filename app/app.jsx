@@ -2,7 +2,8 @@ if (Meteor.isClient) {
 
   const {
       RaisedButton,
-      Avatar
+      Avatar,
+      SvgIcon
       } = mui;
 
   let Content = React.createClass({
@@ -36,6 +37,10 @@ if (Meteor.isClient) {
                   backgroundColor={Colors.purple500}>
                 {this.state.counter}
               </Avatar> times.
+            <FontIcon className="material-icons">face</FontIcon>
+            <SvgIcon>
+              <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path>
+            </SvgIcon>
           </div>
       )
     }
