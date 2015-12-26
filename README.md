@@ -1,6 +1,3 @@
-# NOTES:
-Use [meteor-webpack-react](https://github.com/kimsk/meteor-webpack-react/tree/karlkim) instead.
-
 # meteor-react-material-ui
 
 1). Create Meteor app: `meteor create {app}`
@@ -32,3 +29,4 @@ Use [meteor-webpack-react](https://github.com/kimsk/meteor-webpack-react/tree/ka
 - [Getting started with Material UI](https://forums.meteor.com/t/getting-started-with-material-ui/11800)
 - [meteor-material-ui-example](https://github.com/rkstar/meteor-material-ui-example)
 - [Convert accounts to Material-UI using formsy-react and formsy-material-ui](https://github.com/mbrookes/getting-started-with-react/commit/c238da3e7294a11c9e1db4f42c1ce80f1bc6f5f5#diff-5fe3620302129cd0a9ac147a515e08b2)
+- [meteor-webpack-react](https://github.com/kimsk/meteor-webpack-react/tree/karlkim)
